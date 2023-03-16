@@ -1,0 +1,9 @@
+numpy
+Pillow
+opencv-python
+pip
+importlib-metadata
+itsdangerous
+Jinja2
+MarkupSafe
+PyQt5

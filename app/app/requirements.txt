@@ -1,0 +1,14 @@
+importlib-metadata
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+opencv-python
+Pillow
+pip
+PyQt5
+PyQt5-Qt5
+PyQt5-sip
+setuptools
+zipp
+openvino
