@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "PythonApplication2.sln",
+    "projects": [
+      "PythonApplication2\\PythonApplication2.pyproj"
+    ]
+  }
+}
