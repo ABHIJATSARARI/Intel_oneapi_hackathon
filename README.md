@@ -50,6 +50,26 @@ To install TerraSaan, follow these steps:
 3. Follow the on-screen instructions to set up your farm and field details.
 4. Start monitoring your fields and utilize TerraSaan's features for weed detection and resource optimization.
 
+
+## Build the Docker Image(Optional):
+
+Build the Docker image as mentioned in file:
+
+```
+docker build -t weed-detection-app .
+
+```
+Run the Docker container:
+
+```
+docker run -it --net=host -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix weed-detection-app
+--net=host is used to enable networking (required for GUI apps).
+-e DISPLAY and -v /tmp/.X11-unix:/tmp/.X11-unix are used to enable X11 forwarding for GUI applications.
+
+```
+
+Note :  Docker implementation still in development , the commit version is teasted. 
+
 ## Contributing
 
 We welcome contributions from the community to help improve TerraSaan. If you'd like to contribute, please follow our [contributing guidelines](CONTRIBUTING.md).
